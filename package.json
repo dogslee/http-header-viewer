@@ -1,5 +1,5 @@
 {
-  "name": "playgroud-chrome-plugin",
+  "name": "http-header-viewer",
   "version": "1.0.0",
   "description": "Chrome extension for viewing HTTP headers",
   "main": "background.js",
