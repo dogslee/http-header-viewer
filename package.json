@@ -4,8 +4,10 @@
   "description": "Chrome extension for viewing HTTP headers",
   "main": "background.js",
   "scripts": {
-    "build": "webpack --config webpack.config.js",
-    "watch": "webpack --config webpack.config.js --watch"
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "type-check": "tsc --noEmit"
   },
   "keywords": ["chrome-extension", "http-headers", "react"],
   "author": "",
@@ -15,13 +17,11 @@
     "@types/node": "^20.11.24",
     "@types/react": "^18.2.61",
     "@types/react-dom": "^18.2.19",
-    "copy-webpack-plugin": "^12.0.2",
-    "css-loader": "^6.10.0",
-    "style-loader": "^3.3.4",
-    "ts-loader": "^9.5.1",
+    "@vitejs/plugin-react": "^4.2.1",
     "typescript": "^5.3.3",
-    "webpack": "^5.90.3",
-    "webpack-cli": "^5.1.4"
+    "vite": "^5.1.4",
+    "postcss": "^8.4.35",
+    "autoprefixer": "^10.4.17"
   },
   "dependencies": {
     "react": "^18.2.0",
